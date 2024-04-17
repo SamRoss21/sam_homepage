@@ -22,7 +22,7 @@ class SideBar extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(20.0)),
               ),
             ),
-            Container(
+            Expanded(child:SingleChildScrollView(child: Container(
               height: 200,
               width: 200,
               margin: const EdgeInsets.only(top: 20, left: 250),
@@ -39,6 +39,8 @@ class SideBar extends StatelessWidget {
 
                   ])),
             )
+            ),
+            ),
           ]);
   }
 }
