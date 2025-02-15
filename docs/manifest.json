@@ -1,11 +1,11 @@
 {
-    "name": "website",
-    "short_name": "website",
+    "name": "sam_homepage",
+    "short_name": "sam_homepage",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Sam Ross's Homepage",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
