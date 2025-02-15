@@ -45,18 +45,18 @@ class myBar extends StatelessWidget implements PreferredSizeWidget{
               child: Text("Publications"),
             ),
           ),
-          Padding(
-            padding: EdgeInsets.only(right: 10.0),
-            child: TextButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  PageRouteBuilder(pageBuilder: (_, __, ___) => Blog()),
-                );
-              },
-              child: Text("Blog"),
-            ),
-          ),
+          // Padding(
+          //   padding: EdgeInsets.only(right: 10.0),
+          //   child: TextButton(
+          //     onPressed: () {
+          //       Navigator.push(
+          //         context,
+          //         PageRouteBuilder(pageBuilder: (_, __, ___) => Blog()),
+          //       );
+          //     },
+          //     child: Text("Blog"),
+          //   ),
+          // ),
           Padding(
             padding: EdgeInsets.only(right: 250.0),
             child: TextButton(
